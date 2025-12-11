@@ -1,11 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+<!DOCTYPE html> <!--this is just the document declaration; also comments can be multiple lines with one set of angle brackets-->
+<html lang="en"> <!--setting the html document to english-->
+
+
+<head> <!--this does not mean 'header'; this just contains all the important info for the website-->
+    <meta charset="UTF-8"> <!--setting the character set to use UTF-8 encoding-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--viewport means the visible area of a webpage;
+    'width=device-width' sets the page boundaries at the edge of the screen; 'initial-scale=1.0' sets zoom to normal-->
+
+    <title>My Portfolio</title> <!--the '/' is to indicate the close tag-->>
+
+    <link rel="stylesheet" href="style.css"> <!--'rel' means relationship; 'href' means hyperlink reference-->
+    <link rel="stylesheet" href="mediaQueries.css">
 </head>
-<body>
-    
+
+
+<body> <!--pretty much everything that shows up on the screen-->
+    <nav id="desktopNav"> <!--navigation element-->
+
+        <div class="logo">John Doe</div> <!--assigns CSS class called 'logo'; 'div' stands for division;-->
+
+        <div>
+            <ul class="navLinks"> <!--'ul' mean unordered list; assigning CSS class called 'navLinks'-->
+                <li></li>
+            </ul>
+        </div>
+        
+    </nav>
+    <script src="script.js"></script>
 </body>
 </html>
