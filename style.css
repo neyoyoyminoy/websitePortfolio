@@ -1,6 +1,6 @@
 /* GENERAL*/
 
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap'); /*importing custom font from google fonts*/
 
 *{
     margin: 0; /*pushes the navigation up, right under the*/
@@ -8,5 +8,13 @@
 }
 
 body {
-    font-family: "Prompt", sans-serif;
+    font-family: "Prompt", sans-serif; /*'Prompt' is the primary font and 'sans-serif' is the backup font*/
+}
+
+html {
+    scroll-behavior: smooth; /*making scrolling smooth*/
+}
+
+p { /*'p' is for paragraph*/
+    color: rgb(red, green, blue);
 }
