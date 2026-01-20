@@ -37,7 +37,7 @@ nav {
     height: 17vh; /*17 is the percentage; 'vh' stands for view hight*/
 }
 
-.navLinks {
+.navLinks { /*the dot meant to target the HTML class*/
     gap: 2rem; /*'rem' means root element; so 2rem means 2 times the set font size in HTML*/
     list-style: none;
     font-size: 1.5rem;
@@ -62,4 +62,9 @@ a:hover {
 
 .logo:hover {
     cursor: default;
+}
+
+/*HAMBURGER MENU*/
+#hamburgerNav { /*the '#' is used to target ids in HTML*/
+    display: none; /*if in desktop the hamburger menu won't show up*/
 }

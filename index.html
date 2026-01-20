@@ -31,6 +31,22 @@
         </div>
         
     </nav>
+    <nav id="hamburgerNav">
+        <div class="logo">Brendan Nellis</div>
+        <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()"> <!--'onclick' is just to open the hamburger menu-->
+                <span></span> <!--these three spans are the hamburger menu lines-->>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menuLinks">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li> <!--'onclick' is just to close the hamburger menu-->
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
