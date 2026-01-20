@@ -18,3 +18,13 @@ html {
 p { /*'p' is for paragraph*/
     color: rgb(red, green, blue);
 }
+
+/*TRANSITION*/
+a, .btn{ /*'.btn' is for the button*/
+    transition: all 300ms ease;
+}
+
+/*DESKTOP NAVIGATION*/
+nav, .nav-links{
+    display: flex;
+}
