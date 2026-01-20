@@ -82,3 +82,21 @@ a:hover {
     width: 30px;
     cursor: pointer;
 }
+
+.hamburgerIcon span { /*each span is one bar of the hamburger icon*/
+    width: 100%; /*width is already 30px due to the above CSS ruleset*/
+    height: 2px; /*each bar will be 2px thick*/
+    background-color: black; /*each bar will be black*/
+    transition: all 0.3 ease-in-out; /*'all' animates any propery that changes; 0.3 seconds*/
+}
+
+.menuLinks {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
