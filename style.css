@@ -68,3 +68,17 @@ a:hover {
 #hamburgerNav { /*the '#' is used to target ids in HTML*/
     display: none; /*if in desktop the hamburger menu won't show up*/
 }
+
+.hamburgerMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburgerIcon {
+    display: flex; /*turns element into flex container*/
+    flex-direction: column; /*sets main axis in the flex container*/
+    justify-content: space-between; /*controls spacing long main axis*/
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
