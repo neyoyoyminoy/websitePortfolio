@@ -148,5 +148,9 @@ a:hover {
 
 /*SECTIONS*/
 img {
-    border-radius: 50%;
+    border-radius: 50%; /*makes profile picture a circle*/
+}
+
+#socialContainer:hover { /*changes cursor to a pointer for better visbility of button*/
+    cursor: pointer;
 }
