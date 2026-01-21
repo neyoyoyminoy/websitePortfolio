@@ -84,6 +84,7 @@ a:hover {
 }
 
 .hamburgerIcon span { /*each span is one bar of the hamburger icon*/
+    display: block;
     width: 100%; /*width is already 30px due to the above CSS ruleset*/
     height: 2px; /*each bar will be 2px thick*/
     background-color: black; /*each bar will be black*/
@@ -99,4 +100,48 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+}
+
+.menuLinks a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+}
+
+.menuLinks li {
+    list-style: none;
+}
+
+.menuLinks.open {
+    max-height: 300px;
+}
+
+/*open state -> X*/
+.hamburgerIcon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburgerIcon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburgerIcon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
+
+/*closed state resets*/
+.hamburgerIcon span:first-child {
+    transform: none;
+}
+
+.hamburgerIcon span:nth-child(2) {
+    opacity: 1;
+}
+
+.hamburgerIcon span:last-child {
+    transform: none;
 }
