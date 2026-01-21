@@ -151,6 +151,61 @@ img {
     border-radius: 50%; /*makes profile picture a circle*/
 }
 
-#socialContainer:hover { /*changes cursor to a pointer for better visbility of button*/
+section {
+    padding-top: 4vh; /*'vh' means viewport height; 1vh is 1% of the window height*/
+    height: 96vh;
+    margin: 0 10rem; /*'0' is top and bottom margin; '10rem' is left and right margin*/
+    box-sizing: border-box; /**/
+    min-height: fit-content;
+}
+
+.section__picContainer {
+    display: flex;
+}
+
+/*PROFILE SECTION*/
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__picContainer {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__textP1 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.icon {
     cursor: pointer;
+    height: 2rem;
 }
