@@ -189,12 +189,15 @@ section {
 
 .section__textP1 {
     text-align: center;
-    font-size: 1.75rem;
+}
+
+.section__textP2 {
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 2.25rem;
     text-align: center;
 }
 
@@ -208,4 +211,51 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+/*BUTTONS*/
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.buttonColor1,
+.buttonColor2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.butonColor1:hover,
+.buttonColor2:hover {
+    cursor: pointer;
+}
+
+.butonColor1,
+.buttonColor2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.buttonColor1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.buttonColor2 {
+    background: none;
+}
+
+.buttonColor2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.buttonContainer {
+    gap: 1rem;
 }
