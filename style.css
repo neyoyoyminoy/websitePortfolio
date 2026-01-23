@@ -233,14 +233,14 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.butonColor1:hover,
+.buttonColor1:hover,
 .buttonColor2:hover {
     cursor: pointer;
 }
 
-.butonColor1,
+.buttonColor1,
 .buttonColor2:hover {
-    background: rgb(53, 53, 53);
+    background: rgb(20, 16, 16);
     color: white;
 }
 
