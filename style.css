@@ -262,10 +262,52 @@ section {
     gap: 1rem;
 }
 
-/*ABOUT*/
+/*ABOUT SECTION*/
+#about {
+    position: relative;
+}
+
+.aboutContainers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.aboutDetailsContainer {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutContainers,
+.aboutDetailsContainer {
+    display: flex;
+}
+
+.aboutPic {
+    border-radius: 2rem;
+}
+
+.arrowIcon {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+    height: 50px;
+    width: 50px;
+}
+
+.detailsContainer {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
 .picContainer {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     margin: auto 0;
 }
