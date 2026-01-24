@@ -26,8 +26,15 @@ This portfolio highlights my work in full-stack development, application logic, 
 - Deployed using GitHub Pages
 
 ## Repository Structure
+.
 ├── index.html
 ├── style.css
 ├── mediaQueries.css
 ├── script.js
 └── assets/
+
+## Purpose
+This project serves as both a personal portfolio and a learning exercise in modern frontend development practices, responsive design, and version-controlled deployment.
+
+## Contact
+- LinkedIn: https://www.linkedin.com/in/bnellis/
