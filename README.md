@@ -26,3 +26,8 @@ This portfolio highlights my work in full-stack development, application logic, 
 - Deployed using GitHub Pages
 
 ## Repository Structure
+├── index.html
+├── style.css
+├── mediaQueries.css
+├── script.js
+└── assets/
