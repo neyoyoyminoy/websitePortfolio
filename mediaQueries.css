@@ -1,3 +1,14 @@
+@media screen and (max-width: 1400px) { /*the '@' means it's conditional; 'media screen' is the literal device screen*/
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    
+    .aboutContainers {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px) { /*the '@' means it's conditional; 'media screen' is the literal device screen*/
     #desktopNav{ /*when screen size is lower than 1200px it will only show hamburger menu*/
         display: none;
@@ -5,5 +16,25 @@
 
     #hamburgerNav {
         display: flex;
+    }
+
+    #experience, .experienceDetailsContainer {
+        margin-top: 2rem;
+    }
+
+    #profile, .sectionContainer {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section, .sectionContainer {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
     }
 }
