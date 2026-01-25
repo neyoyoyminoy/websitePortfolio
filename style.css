@@ -147,7 +147,7 @@ a:hover {
 }
 
 /*SECTIONS*/
-img {
+.profilePic {
     border-radius: 50%; /*makes profile picture a circle*/
 }
 
