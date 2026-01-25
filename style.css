@@ -406,3 +406,15 @@ article .icon {
     gap: 0.5rem;
     margin: 1rem;
 }
+
+.contactInfoContainer p {
+    font-size: larger;
+}
+
+.contactIcon {
+    cursor: default;
+}
+
+.emailIcon {
+    height: 2.5rem;
+}
