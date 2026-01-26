@@ -84,7 +84,14 @@
     }
 
     .experienceSubTitle {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+    }
+
+    .articleContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem 1rem;
+        justify-items: start;
     }
 
     .logo {
@@ -111,4 +118,6 @@
     .title {
         font-size: 2.75rem;
     }
+
+
 }
