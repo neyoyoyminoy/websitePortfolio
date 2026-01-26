@@ -120,7 +120,7 @@
 
     .section__picContainer {
         width: auto;
-        height: 46vw; /*'vh' is view height*/
+        height: 46vw; /*'vw' is view width*/
         justify-content: center;
     }
 
@@ -133,5 +133,11 @@
         font-size: 2.75rem;
     }
 
+    .projectImg {
+        height: 70vw;
+        width: auto;
+        justify-content: center;
+        margin: 1rem;
+    }
 
 }
