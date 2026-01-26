@@ -140,4 +140,8 @@
         margin: 1rem;
     }
 
+    .arrowIcon {
+        display: none;
+    }
+
 }
