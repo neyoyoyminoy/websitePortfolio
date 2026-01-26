@@ -94,6 +94,20 @@
         justify-items: start;
     }
 
+    #experience {
+        margin: 0 1rem;
+    }
+
+    .experienceDetailsContainer {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .detailsContainer {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     .logo {
         font-size: 1.5rem;
     }
