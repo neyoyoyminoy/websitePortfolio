@@ -74,4 +74,12 @@
     .buttonContainer {
         flex-wrap: wrap;
     }
+
+    .contactInfoContainer {
+        margin: 0;
+    }
+
+    .contactInfoContainer p, .navLinks li a {
+        font-size: 1rem;
+    }
 }
