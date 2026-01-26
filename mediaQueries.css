@@ -102,4 +102,13 @@
         height: 46vw; /*'vh' is view height*/
         justify-content: center;
     }
+
+    .section__textP2 {
+        font-size: 1rem;
+        color: rgb(85, 85, 85);
+    }
+
+    .title {
+        font-size: 2.75rem;
+    }
 }
