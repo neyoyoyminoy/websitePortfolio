@@ -96,4 +96,10 @@
         gap: 0.5rem;
         text-align: center;
     }
+
+    .section__picContainer {
+        width: auto;
+        height: 46vw; /*'vh' is view height*/
+        justify-content: center;
+    }
 }
